@@ -9,6 +9,7 @@ body {
     flex-direction: column;
 }
 
+/* START OF HEADER*/
 .header{
     background-color: #1f2937;
     display: flex;
@@ -21,37 +22,69 @@ body {
     font-size: 24px;
     color:white;
     font-weight:600;
-    margin-left: 100px;
 }
 
 .header a{
-
     color: white;
     text-decoration: none;
     font-size: 18px;
-    margin-right: 50px;
-  }
+    margin-right: 3vh;
+}
+
+/* END OF HEADER*/
+
 
 .description{
+    /*background-color: #1f2937;*/
     background-color: red;
     display: flex;
 }
 
 .information{
-    background-color: #3882f6;
+    background-color: white;
     display: flex;
 }
 
 .quote{
-    background-color: #1f2937;
     display: flex;
+    background-color: #E5E7EB;
+    
 }
 
-.calltoaction{
-    background-color: rgb(251, 251, 252);
+/* CALL TO ACTION*/
+.outer-calltoaction{
+    background-color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh;
 }
 
+.inner-calltoaction{
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    padding: 5vh;
+    width: 150vh;
+    border-radius: 20px; 
+    justify-content:space-between;
+}
+
+.text-calltoaction{
+    color:white;
+    font-weight: bold;
+}
+
+.inner-calltoaction button{
+    background-color: #3882f6;
+    font-weight: bold;
+    border-radius: 5vh; 
+    width:15vh;
+    color:white;
+    border-color: white;
+}
+
+/* FOOTER */
 .footer{
     background-color: #1f2937;
     display: flex;
