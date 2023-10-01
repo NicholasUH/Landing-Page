@@ -31,45 +31,79 @@ body {
     margin-right: 3vh;
 }
 
-/* END OF HEADER*/
-
 
 .description{
-    /*background-color: #1f2937;*/
-    background-color: red;
+    background-color: #1f2937;
     display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
+
+.left-desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.left-desc button{
+    background-color: #3882f6;
+    font-weight: bold;
+    border-radius: 12px;
+    width: 15vh;
+    height: 3vh;
+    color:white;
+    border-color: #3882f6;
+}
+
+.normal-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.right-desc img {
+    height: auto;
+    width: 55vh;
+    padding: 10vh;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
 
 .information{
     background-color: white;
     display: flex;
+    flex-direction: column;
     padding: 10vh;
 }
 
 .title-information{
     font-size: 36px;
-    font-weight:bolder
+    font-weight:bolder;
+    text-align: center;
 }
 
+.images-information{
+    text-align: center;
+    display: flex;
+    padding: 5vh;
+    justify-content:space-evenly;
+}
 
+.images-information img{
+    border-width: 3px; 
+    border-style: solid; 
+    border-color: #3882f6;
+    border-radius: 5vh;
+    max-width: 100%;
+    height: auto;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 /* QUOTE */
 .quote{
@@ -85,7 +119,7 @@ body {
 }
 
 .quote div{
-    text-align: right;
+    text-align:right;
     font-weight: bold;
 }
 
