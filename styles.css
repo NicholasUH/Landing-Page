@@ -43,12 +43,50 @@ body {
 .information{
     background-color: white;
     display: flex;
+    padding: 10vh;
 }
 
+.title-information{
+    font-size: 36px;
+    font-weight:bolder
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* QUOTE */
 .quote{
     display: flex;
     background-color: #E5E7EB;
-    
+    justify-content: center;
+    padding: 15vh;
+    font-size: 30px;
+    color: #1f2937;
+    font-style: italic;
+    text-align: center;
+    flex-direction: column;
+}
+
+.quote div{
+    text-align: right;
+    font-weight: bold;
 }
 
 /* CALL TO ACTION*/
@@ -57,7 +95,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10vh;
+    padding: 5vh;
 }
 
 .inner-calltoaction{
