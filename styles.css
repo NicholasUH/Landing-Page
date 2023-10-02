@@ -194,6 +194,11 @@ body {
     flex-direction: column;
     gap: 25px;
   }
+
+  .inner-calltoaction button{
+    width: 250px;
+    height: auto;
+  }
   
 
 }
