@@ -197,8 +197,6 @@ body {
 
   .inner-calltoaction button{
     width: 250px;
-    height: auto;
+    height: 50px;
   }
-  
-
 }
