@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -9,27 +9,27 @@ body {
   flex-direction: column;
 }
 
-.header{
-  background-color: #58acf4;
+.header {
+  background-color: #3882f6;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 16px;
 }
 
-.header-logo img{
+.header-logo img {
   height: auto;
   width: 15vh;
 }
 
-.header a{
+.header a {
   color: white;
   text-decoration: none;
   font-size: 18px;
   margin-right: 3vh;
 }
 
-.description{
+.description {
   background-color: #58acf4;
   display: flex;
   color: white;
@@ -37,29 +37,29 @@ body {
   align-items: center;
 }
 
-.left-desc{
+.left-desc {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.hero-text{
+.hero-text {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
 }
 
-.left-desc button{
+.left-desc button {
   background-color: #3882f6;
   font-weight: bold;
   border-radius: 2vh;
   width: 30vh;
   height: 5vh;
-  color:white;
+  color: white;
   border-color: #3882f6;
 }
 
-.normal-text{
+.normal-text {
   font-size: 18px;
   color: #e5e7eb;
   text-align: center;
@@ -73,36 +73,38 @@ body {
   overflow: hidden;
 }
 
-.information{
+.information {
   background-color: white;
   display: flex;
   flex-direction: column;
   padding: 10vh;
 }
 
-.title-information{
+.title-information {
   font-size: 36px;
-  font-weight:bolder;
+  font-weight: bolder;
   text-align: center;
 }
 
-.images-information{
-  text-align: center;
+.images-information {
+  padding-top: 10vh;
   display: flex;
-  padding: 5vh;
-  justify-content:space-evenly;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap:50px;
 }
 
-.images-information img{
-  border-width: 3px;
-  border-style: solid;
-  border-color: #3882f6;
-  border-radius: 5vh;
-  max-width: 25vh;
-  height: auto;
+.images-information img {
+  flex: 0;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid #3882F6;
+  border-radius: 15px;
+  
 }
 
-.quote{
+.quote {
   display: flex;
   background-color: #3882f6;
   justify-content: center;
@@ -114,12 +116,12 @@ body {
   flex-direction: column;
 }
 
-.quote div{
-  text-align:right;
+.quote div {
+  text-align: right;
   font-weight: bold;
 }
 
-.outer-calltoaction{
+.outer-calltoaction {
   background-color: white;
   display: flex;
   justify-content: center;
@@ -127,31 +129,31 @@ body {
   padding: 5vh;
 }
 
-.inner-calltoaction{
+.inner-calltoaction {
   display: flex;
   flex-direction: row;
   background-color: #58acf4;
   padding: 5vh;
   width: 150vh;
   border-radius: 2vh;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.text-calltoaction{
-  color:white;
+.text-calltoaction {
+  color: white;
   font-weight: bold;
 }
 
-.inner-calltoaction button{
+.inner-calltoaction button {
   background-color: #3882f6;
   font-weight: bold;
   border-radius: 2vh;
-  width:20vh;
-  color:white;
+  width: 20vh;
+  color: white;
   border-color: #3882f6;
 }
 
-.footer{
+.footer {
   background-color: #58acf4;
   display: flex;
   justify-content: center;
@@ -159,4 +161,39 @@ body {
   font-size: 100%;
   color: #E5E7EB;
   height: 10vh;
-} 
+}
+
+
+@media only screen and (max-width: 450px) {
+  .quote p {
+    font-size: 1rem;
+  }
+  
+  .right-desc img {
+    height: auto;
+    width: 30vh;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-information {
+    font-size: 18px;
+  }
+
+  .quote div {
+    font-size: 1rem;
+  }
+
+  .inner-calltoaction{
+    text-align: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+
+}
