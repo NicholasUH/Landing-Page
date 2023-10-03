@@ -19,13 +19,12 @@ body {
 
 .header-logo img {
   height: auto;
-  width: 10rem;
+  width: 15vh;
 }
 
 .header-links{
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .header-links h3{
@@ -216,10 +215,3 @@ body {
     height: 50px;
   }
 }
-
-/*
-Changes I want to do:
--Make logo bigger
--add button functionality
-
-*/
