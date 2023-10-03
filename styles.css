@@ -19,7 +19,22 @@ body {
 
 .header-logo img {
   height: auto;
-  width: 15vh;
+  width: 10rem;
+}
+
+.header-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-links h3{
+    color: white;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;   
+    font-weight: 100; 
+    font-size: 1.4rem;
+    font-style: italic;
 }
 
 .header a {
@@ -45,8 +60,8 @@ body {
 
 .hero-text {
   font-size: 48px;
-  font-weight: bolder;
   color: #f9faf8;
+  font-style: italic;
 }
 
 .left-desc button {
@@ -77,13 +92,14 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding: 10vh;
+  padding: 5rem;
 }
 
 .title-information {
-  font-size: 36px;
+  font-size: 50px;
   font-weight: bolder;
   text-align: center;
+  font-style: italic;
 }
 
 .images-information {
@@ -200,3 +216,10 @@ body {
     height: 50px;
   }
 }
+
+/*
+Changes I want to do:
+-Make logo bigger
+-add button functionality
+
+*/
