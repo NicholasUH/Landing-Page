@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  background-color: #3882f6;
+  background-color: red;
   display: flex;
   align-items: center;
   justify-content: space-around;
